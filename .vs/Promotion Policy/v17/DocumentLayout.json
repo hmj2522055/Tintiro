@@ -1,10 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\shimatani rui\\DxLib_VC\\Promotion Policy\\",
+  "WorkspaceRootPath": "D:\\GitHub\\\u9032\u7D1A\u653F\u7B56\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4E48E3FB-0A57-4B57-A6FC-68BFBFE85EA7}|Promotion Policy\\Promotion Policy.vcxproj|D:\\shimatani rui\\DxLib_VC\\Promotion Policy\\Promotion Policy\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{4E48E3FB-0A57-4B57-A6FC-68BFBFE85EA7}|Promotion Policy\\Promotion Policy.vcxproj|solutionrelative:Promotion Policy\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{4E48E3FB-0A57-4B57-A6FC-68BFBFE85EA7}|Promotion Policy\\Promotion Policy.vcxproj|D:\\GitHub\\\u9032\u7D1A\u653F\u7B56\\Promotion Policy\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4E48E3FB-0A57-4B57-A6FC-68BFBFE85EA7}|Promotion Policy\\Promotion Policy.vcxproj|solutionrelative:Promotion Policy\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E48E3FB-0A57-4B57-A6FC-68BFBFE85EA7}|Promotion Policy\\Promotion Policy.vcxproj|D:\\GitHub\\\u9032\u7D1A\u653F\u7B56\\Promotion Policy\\Dice.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4E48E3FB-0A57-4B57-A6FC-68BFBFE85EA7}|Promotion Policy\\Promotion Policy.vcxproj|solutionrelative:Promotion Policy\\Dice.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E48E3FB-0A57-4B57-A6FC-68BFBFE85EA7}|Promotion Policy\\Promotion Policy.vcxproj|D:\\GitHub\\\u9032\u7D1A\u653F\u7B56\\Promotion Policy\\Drinks.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4E48E3FB-0A57-4B57-A6FC-68BFBFE85EA7}|Promotion Policy\\Promotion Policy.vcxproj|solutionrelative:Promotion Policy\\Drinks.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E48E3FB-0A57-4B57-A6FC-68BFBFE85EA7}|Promotion Policy\\Promotion Policy.vcxproj|D:\\GitHub\\\u9032\u7D1A\u653F\u7B56\\Promotion Policy\\GameMain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4E48E3FB-0A57-4B57-A6FC-68BFBFE85EA7}|Promotion Policy\\Promotion Policy.vcxproj|solutionrelative:Promotion Policy\\GameMain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E48E3FB-0A57-4B57-A6FC-68BFBFE85EA7}|Promotion Policy\\Promotion Policy.vcxproj|D:\\GitHub\\\u9032\u7D1A\u653F\u7B56\\Promotion Policy\\Dice.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4E48E3FB-0A57-4B57-A6FC-68BFBFE85EA7}|Promotion Policy\\Promotion Policy.vcxproj|solutionrelative:Promotion Policy\\Dice.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E48E3FB-0A57-4B57-A6FC-68BFBFE85EA7}|Promotion Policy\\Promotion Policy.vcxproj|D:\\GitHub\\\u9032\u7D1A\u653F\u7B56\\Promotion Policy\\Drinks.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4E48E3FB-0A57-4B57-A6FC-68BFBFE85EA7}|Promotion Policy\\Promotion Policy.vcxproj|solutionrelative:Promotion Policy\\Drinks.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E48E3FB-0A57-4B57-A6FC-68BFBFE85EA7}|Promotion Policy\\Promotion Policy.vcxproj|D:\\GitHub\\\u9032\u7D1A\u653F\u7B56\\Promotion Policy\\Entities.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4E48E3FB-0A57-4B57-A6FC-68BFBFE85EA7}|Promotion Policy\\Promotion Policy.vcxproj|solutionrelative:Promotion Policy\\Entities.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E48E3FB-0A57-4B57-A6FC-68BFBFE85EA7}|Promotion Policy\\Promotion Policy.vcxproj|D:\\GitHub\\\u9032\u7D1A\u653F\u7B56\\Promotion Policy\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4E48E3FB-0A57-4B57-A6FC-68BFBFE85EA7}|Promotion Policy\\Promotion Policy.vcxproj|solutionrelative:Promotion Policy\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E48E3FB-0A57-4B57-A6FC-68BFBFE85EA7}|Promotion Policy\\Promotion Policy.vcxproj|D:\\GitHub\\\u9032\u7D1A\u653F\u7B56\\Promotion Policy\\Input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4E48E3FB-0A57-4B57-A6FC-68BFBFE85EA7}|Promotion Policy\\Promotion Policy.vcxproj|solutionrelative:Promotion Policy\\Input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E48E3FB-0A57-4B57-A6FC-68BFBFE85EA7}|Promotion Policy\\Promotion Policy.vcxproj|D:\\GitHub\\\u9032\u7D1A\u653F\u7B56\\Promotion Policy\\GameMain.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4E48E3FB-0A57-4B57-A6FC-68BFBFE85EA7}|Promotion Policy\\Promotion Policy.vcxproj|solutionrelative:Promotion Policy\\GameMain.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E48E3FB-0A57-4B57-A6FC-68BFBFE85EA7}|Promotion Policy\\Promotion Policy.vcxproj|D:\\GitHub\\\u9032\u7D1A\u653F\u7B56\\Promotion Policy\\TurnState.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4E48E3FB-0A57-4B57-A6FC-68BFBFE85EA7}|Promotion Policy\\Promotion Policy.vcxproj|solutionrelative:Promotion Policy\\TurnState.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +54,149 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TurnState.h",
+              "DocumentMoniker": "D:\\GitHub\\\u9032\u7D1A\u653F\u7B56\\Promotion Policy\\TurnState.h",
+              "RelativeDocumentMoniker": "Promotion Policy\\TurnState.h",
+              "ToolTip": "D:\\GitHub\\\u9032\u7D1A\u653F\u7B56\\Promotion Policy\\TurnState.h",
+              "RelativeToolTip": "Promotion Policy\\TurnState.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-02T04:55:30.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Entities.h",
+              "DocumentMoniker": "D:\\GitHub\\\u9032\u7D1A\u653F\u7B56\\Promotion Policy\\Entities.h",
+              "RelativeDocumentMoniker": "Promotion Policy\\Entities.h",
+              "ToolTip": "D:\\GitHub\\\u9032\u7D1A\u653F\u7B56\\Promotion Policy\\Entities.h",
+              "RelativeToolTip": "Promotion Policy\\Entities.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-02T04:55:05.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Game.h",
+              "DocumentMoniker": "D:\\GitHub\\\u9032\u7D1A\u653F\u7B56\\Promotion Policy\\Game.h",
+              "RelativeDocumentMoniker": "Promotion Policy\\Game.h",
+              "ToolTip": "D:\\GitHub\\\u9032\u7D1A\u653F\u7B56\\Promotion Policy\\Game.h",
+              "RelativeToolTip": "Promotion Policy\\Game.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD4AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-02T04:51:44.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Main.cpp",
-              "DocumentMoniker": "D:\\shimatani rui\\DxLib_VC\\Promotion Policy\\Promotion Policy\\Main.cpp",
-              "RelativeDocumentMoniker": "Promotion Policy\\Main.cpp",
-              "ToolTip": "D:\\shimatani rui\\DxLib_VC\\Promotion Policy\\Promotion Policy\\Main.cpp",
-              "RelativeToolTip": "Promotion Policy\\Main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Game.cpp",
+              "DocumentMoniker": "D:\\GitHub\\\u9032\u7D1A\u653F\u7B56\\Promotion Policy\\Game.cpp",
+              "RelativeDocumentMoniker": "Promotion Policy\\Game.cpp",
+              "ToolTip": "D:\\GitHub\\\u9032\u7D1A\u653F\u7B56\\Promotion Policy\\Game.cpp",
+              "RelativeToolTip": "Promotion Policy\\Game.cpp",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAUwHkBAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-02-27T00:36:42.988Z",
+              "WhenOpened": "2026-03-02T04:51:34.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Input.h",
+              "DocumentMoniker": "D:\\GitHub\\\u9032\u7D1A\u653F\u7B56\\Promotion Policy\\Input.h",
+              "RelativeDocumentMoniker": "Promotion Policy\\Input.h",
+              "ToolTip": "D:\\GitHub\\\u9032\u7D1A\u653F\u7B56\\Promotion Policy\\Input.h",
+              "RelativeToolTip": "Promotion Policy\\Input.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-02T04:49:52.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Drinks.cpp",
+              "DocumentMoniker": "D:\\GitHub\\\u9032\u7D1A\u653F\u7B56\\Promotion Policy\\Drinks.cpp",
+              "RelativeDocumentMoniker": "Promotion Policy\\Drinks.cpp",
+              "ToolTip": "D:\\GitHub\\\u9032\u7D1A\u653F\u7B56\\Promotion Policy\\Drinks.cpp",
+              "RelativeToolTip": "Promotion Policy\\Drinks.cpp",
+              "ViewState": "AQIAACoAAAAAAAAAAAAUwGAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-02T04:49:30.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Drinks.h",
+              "DocumentMoniker": "D:\\GitHub\\\u9032\u7D1A\u653F\u7B56\\Promotion Policy\\Drinks.h",
+              "RelativeDocumentMoniker": "Promotion Policy\\Drinks.h",
+              "ToolTip": "D:\\GitHub\\\u9032\u7D1A\u653F\u7B56\\Promotion Policy\\Drinks.h",
+              "RelativeToolTip": "Promotion Policy\\Drinks.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAByAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-02T04:49:18.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dice.h",
+              "DocumentMoniker": "D:\\GitHub\\\u9032\u7D1A\u653F\u7B56\\Promotion Policy\\Dice.h",
+              "RelativeDocumentMoniker": "Promotion Policy\\Dice.h",
+              "ToolTip": "D:\\GitHub\\\u9032\u7D1A\u653F\u7B56\\Promotion Policy\\Dice.h",
+              "RelativeToolTip": "Promotion Policy\\Dice.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-02T04:48:45.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dice.cpp",
+              "DocumentMoniker": "D:\\GitHub\\\u9032\u7D1A\u653F\u7B56\\Promotion Policy\\Dice.cpp",
+              "RelativeDocumentMoniker": "Promotion Policy\\Dice.cpp",
+              "ToolTip": "D:\\GitHub\\\u9032\u7D1A\u653F\u7B56\\Promotion Policy\\Dice.cpp",
+              "RelativeToolTip": "Promotion Policy\\Dice.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-02T04:48:30.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GameMain.h",
+              "DocumentMoniker": "D:\\GitHub\\\u9032\u7D1A\u653F\u7B56\\Promotion Policy\\GameMain.h",
+              "RelativeDocumentMoniker": "Promotion Policy\\GameMain.h",
+              "ToolTip": "D:\\GitHub\\\u9032\u7D1A\u653F\u7B56\\Promotion Policy\\GameMain.h",
+              "RelativeToolTip": "Promotion Policy\\GameMain.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-02T00:31:59.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameMain.cpp",
+              "DocumentMoniker": "D:\\GitHub\\\u9032\u7D1A\u653F\u7B56\\Promotion Policy\\GameMain.cpp",
+              "RelativeDocumentMoniker": "Promotion Policy\\GameMain.cpp",
+              "ToolTip": "D:\\GitHub\\\u9032\u7D1A\u653F\u7B56\\Promotion Policy\\GameMain.cpp",
+              "RelativeToolTip": "Promotion Policy\\GameMain.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-02T00:31:39.726Z",
               "EditorCaption": ""
             }
           ]
