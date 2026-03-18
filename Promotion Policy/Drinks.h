@@ -33,6 +33,7 @@ struct DrinkEffectParams {
 	float tequilaBaseMult = 2.0f;
 	float rumExtraBase = 0.5f;
 	int   ojHeal = 8;
+	
 };
 
 // 計算・適用（HP変動はGame側で行う）

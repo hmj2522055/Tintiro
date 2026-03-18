@@ -7,6 +7,7 @@
 #include "Drinks.h"
 #include "Entities.h"
 #include "TurnState.h"
+#include "Ai.h"
 
 class Game {
 public:
@@ -18,7 +19,7 @@ private:
 	// ƒ‹[ƒv•ªŠ„
 	void update();
 	void draw();
-
+	void aiStepForCustomer();
 	// ƒQ[ƒ€ŠÇ—
 	void startGame();
 	void loadCustomer(int idx);

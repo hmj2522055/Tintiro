@@ -2,6 +2,8 @@
 #include "DxLib.h"
 #include <algorithm>
 #include <cmath>
+#include <random>      // ★ RNG 用
+#include "AI.h"        // ★ 追加
 
 // ===== RNG =====
 Game::RNG::RNG() {
@@ -155,7 +157,7 @@ void Game::update() {
 	if (in.pressedQ()) T.wagerDouble = !T.wagerDouble;
 	if (in.pressedE()) T.taunted = true;
 
-	// サイコロ操作
+	// サイコロ操作（★ プレイヤーのみ）
 	if (in.pressedL()) {
 		if (T.currentActor == 0 && !T.fixedP && T.rollCountP < 3) {
 			T.diceP[0] = rng.irand(1, 6); T.diceP[1] = rng.irand(1, 6); T.diceP[2] = rng.irand(1, 6);
@@ -163,20 +165,12 @@ void Game::update() {
 			T.rollCountP++;
 			if (T.rollCountP >= 3) { T.fixedP = true; T.currentActor = 1; }
 		}
-		else if (T.currentActor == 1 && !T.fixedC && T.rollCountC < 3) {
-			T.diceC[0] = rng.irand(1, 6); T.diceC[1] = rng.irand(1, 6); T.diceC[2] = rng.irand(1, 6);
-			T.handC = Judge3(T.diceC[0], T.diceC[1], T.diceC[2]);
-			T.rollCountC++;
-			if (T.rollCountC >= 3) { T.fixedC = true; }
-		}
 	}
 	if (in.pressedR()) {
 		if (T.currentActor == 0 && !T.fixedP && T.rollCountP > 0) {
 			T.fixedP = true; T.currentActor = 1;
 		}
-		else if (T.currentActor == 1 && !T.fixedC && T.rollCountC > 0) {
-			T.fixedC = true;
-		}
+		// ★ 相手を右クリックで確定する分岐は削除（AI が自前で確定）
 		else if (T.fixedP && T.fixedC) {
 			// ===== 集計 =====
 			// ウォッカの役弱体（RNGは公平のまま、見かけの強度だけ -1 段）
@@ -252,6 +246,11 @@ void Game::update() {
 				T.currentDrink = pickDrink(queue[currentCustomerIdx]);
 			}
 		}
+	}
+
+	// ★ 相手の手番は AI が自動で「振る/確定」する
+	if (T.currentActor == 1 && !T.fixedC) {
+		aiStepForCustomer();
 	}
 }
 
@@ -374,5 +373,44 @@ void Game::drawDebuffInfo(int x, int y, const DebuffState& d) {
 	}
 	if (d.extraDrinkBias > 0.01f) {
 		DrawFormatString(x, y + dy, cGreen, L"ラム: もう一杯↑");
+	}
+}
+
+// ===== AI: 相手の手番を 1 フレーム 1 アクションで進める =====
+void Game::aiStepForCustomer() {
+	// まだ 1 回も振ってないなら 1 回振る
+	if (T.rollCountC == 0) {
+		T.diceC[0] = rng.irand(1, 6); T.diceC[1] = rng.irand(1, 6); T.diceC[2] = rng.irand(1, 6);
+		HandResult raw = Judge3(T.diceC[0], T.diceC[1], T.diceC[2]);
+		T.handC = raw; // 表示は生の役名で OK（強度比較は解決時に別途）
+		T.rollCountC++;
+		lastLog = L"[C] " + raw.name;
+
+		if (T.rollCountC >= 3) { T.fixedC = true; }
+		return;
+	}
+
+	// 残りロール回数
+	int remaining = 3 - T.rollCountC;
+	if (remaining <= 0) { T.fixedC = true; return; }
+
+	// 現在の“実効”強さ（ウォッカ弱体込み）で確定判断
+	HandResult eff = ApplyVodkaPenaltyIf(T.handC, customer.debuff.vodkaPenaltyTurns);
+	bool fix = ShouldFixCurrent(eff, remaining, customer.debuff.vodkaPenaltyTurns);
+
+	if (fix) {
+		T.fixedC = true;
+		// プレイヤーがまだ確定していない可能性はあるが、UI はそのまま
+		return;
+	}
+	else {
+		// もう 1 回振る
+		T.diceC[0] = rng.irand(1, 6); T.diceC[1] = rng.irand(1, 6); T.diceC[2] = rng.irand(1, 6);
+		HandResult raw = Judge3(T.diceC[0], T.diceC[1], T.diceC[2]);
+		T.handC = raw;
+		T.rollCountC++;
+		lastLog = L"[C] " + raw.name;
+		if (T.rollCountC >= 3) { T.fixedC = true; }
+		return;
 	}
 }
